@@ -1,0 +1,260 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.head-container
+{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-evenly;
+   /* margin: auto; */
+}
+.header-title
+{
+    margin-bottom: 40px;
+    font-size: 30px;
+    margin-top:100px;
+}
+.header-add
+{
+   margin-top:130px;
+   margin-left: 10px;
+   font-size: 25px;
+}
+.Lists
+{
+    font-weight: lighter;
+    color:lightslategray;
+}
+.card-container
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.card
+{
+    width:230px;
+    position: relative;
+    margin: 30px;
+    min-height:350px;
+    border:1px solid red;
+    border-radius: 6px ;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.card-header
+{
+    margin : 30px;
+    color: red;
+}
+.card-header h4
+{
+   font-size: 25px;
+   font-weight: lighter;
+   margin-bottom:10px;
+}
+.card-content
+{
+    margin-left: 30px;
+    margin-top:30px;
+    margin-bottom: 20px;
+    color: red;
+}
+.card-footer
+{
+    position: absolute;
+    right:10px;
+    bottom:10px;
+}
+.del,.Add-Item
+{
+    padding: 5px;
+    font-weight: bold;
+}
+ul
+{
+    list-style: none;
+}
+ul li
+{
+    font-size: medium;
+    font-weight: bold;
+}
+.Mark_Done
+{
+   margin-left:8px;
+   padding: 5px;
+   border-radius:5px;
+   font-weight: bolder;
+}
+.list_cross
+{
+   text-decoration: line-through;
+}
+/* pop up window css  */
+.card-container-2
+{
+    visibility: hidden;
+    position: absolute;
+    width:400px;
+    background-color:rgba(white,0.4);
+    height:200px;
+    top:250px;
+    left:450px;
+    justify-content: center;
+    border:1px solid red;
+    border-radius: 6px ;
+    text-align: center;
+    background-color:white;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.card-head-2
+{
+    margin: 20px;
+    font-size: 20px;
+    color: red;
+}
+.card-content-2
+{
+    margin:20px;
+}
+.card-content-2 input
+{
+    padding: 10px;
+    width:70%;
+    border:1px solid red;
+    border-radius: 6px ;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.card-foot-2 button
+{
+    padding:8px;
+    margin-top: 5px;
+    width:25%;
+    color:white;
+    border: none;
+    border-radius:20px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* card conatiner 3 */
+.card-container-3
+{
+    position: absolute;
+    visibility: hidden;
+    width:400px;
+    background-color:rgba(white,0.4);
+    height:200px;
+    top:250px;
+    left:450px;
+    justify-content: center;
+    border:1px solid red;
+    border-radius: 6px ;
+    text-align: center;
+    background-color:white;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.card-head-3
+{
+    margin: 20px;
+    font-size: 20px;
+    color: red;
+}
+.card-content-3
+{
+    margin:20px;
+}
+.card-content-3 input
+{
+    padding: 10px;
+    width:70%;
+    border:1px solid red;
+    border-radius: 6px ;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.card-foot-3 button
+{
+    padding:8px;
+    margin-top: 5px;
+    width:25%;
+    color:white;
+    border: none;
+    border-radius:20px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 600px) 
+{
+    body
+    {
+        position: relative;
+    }
+    .card
+    {
+        min-height: 40px;
+        width: 100%;
+        border: 1px solid #ccc9c9;
+    }
+}
+/* list card click css */
+
+.card-container-4
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.card-1
+{
+    min-height:330px;
+    width:300px;
+    margin: auto;
+    border:1px solid red;
+    border-radius:6px;
+    position: relative;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.head-container-2
+{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom:50px;
+}
+.head-container-2 h1
+{
+    display: flex;
+    font-size: 60px;
+    flex-direction: row;
+}
+.head-container-2 h1::after,h1::before
+{
+    content:"";
+    border-bottom: 2px solid black;
+    flex: 0.4;
+    margin:auto;
+}
+.back-container
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.back-container i
+{
+    font-size: 35px;
+    color: red;
+}
+.back-container i span
+{
+    color:slategrey;
+    font-weight:bold;
+    margin-left: 10px;
+}

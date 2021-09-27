@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="index.css">
+    <script
+    src="https://kit.fontawesome.com/348cc65b0f.js"
+    crossorigin="anonymous"
+  ></script>
+   
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap');
+      </style>
+      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <div class="blur">
+        <div class="main-container">
+            <div class="head-container">
+                <div class="header-title">
+                    <h1>Tasks <span class="Lists">Lists</span></h1>
+                </div>
+                <div class="header-add">
+                 <i class="fas fa-plus-circle fa-lg header-add-icon" style="color: red;" onclick="addlist()"></i>&ThinSpace;<span style="font-weight: bold;color:lightslategray;margin-left: 10px;">Add To List</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+                 
+        </div>
+    </div>
+    <div class="card-click">
+        
+    </div>
+    <!-- <upper is blur one></upper> -->
+    <div class="card-container-2">
+        <div class="card-head-2">
+            <h3>Add New List</h3>
+        </div>
+        <div class="card-content-2">
+            <input type="text" name ="value" id="list-header">
+        </div>
+        <div class="card-foot-2">
+             <button onclick="setcard_first()">ADD</button>
+        </div>
+    </div>
+
+    <!-- blurr 2 -->
+    <div class="card-container-3">
+        <div class="card-head-3">
+            <h3>Add New Item</h3>
+        </div>
+        <div class="card-content-3">
+            <input type="text" id = "list-item">
+        </div>
+        <div class="card-foot-3">
+             <button onclick="addItem_Content()">ADD</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
