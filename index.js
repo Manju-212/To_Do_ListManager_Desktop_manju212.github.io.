@@ -62,7 +62,7 @@ function setcard_last()
       for(let j = 0 ;j<current_todo.Sub_List.length;j++)
       {
          let add_list = document.createElement("li");
-         console.log(current_todo.Sub_List[i].marked);
+         console.log(current_todo.Sub_List[j].marked);
          add_list.setAttribute("id",current_todo.Sub_List[j].id);
          var present_id = current_card.parentElement.parentElement.getAttribute("id");
          add_list.innerHTML = `${current_todo.Sub_List[j].name}&ThinSpace;<i class="fa fa-trash" aria-hidden="true" class="Mark_Done" style="color:blue;"  onclick="MarkCompleted(this)"></i>`;
